@@ -13,8 +13,6 @@ const Language: FC = () => {
   )
 }
 
-export default Language
-
 const List = styled.ul`
   color: white;
   padding: 26px 0;
@@ -25,3 +23,5 @@ const ListItem = styled.li`
   font-size: 14px;
   padding: 8px 0;
 `
+
+export default Language

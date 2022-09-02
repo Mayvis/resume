@@ -10,8 +10,6 @@ const Avatar: FC = () => {
   )
 }
 
-export default Avatar
-
 const ImageWrapper = styled.div`
   display: flex;
   align-items: center;
@@ -23,3 +21,5 @@ const Image = styled.img`
   height: 200px;
   border-radius: 50%;
 `
+
+export default Avatar

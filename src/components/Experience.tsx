@@ -22,8 +22,8 @@ const Experience: FC = () => {
   )
 }
 
-export default Experience
-
 const Wrapper = styled.div`
   padding: 26px 0 32px 0;
 `
+
+export default Experience

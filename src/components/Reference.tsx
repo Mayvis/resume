@@ -35,8 +35,6 @@ const Reference: FC = () => {
   )
 }
 
-export default Reference
-
 const List = styled.ul`
   display: flex;
 `
@@ -71,3 +69,5 @@ const Detail = styled.div`
     margin-right: 10px;
   }
 `
+
+export default Reference

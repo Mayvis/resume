@@ -17,9 +17,9 @@ const RightPanel: FC = () => {
   )
 }
 
-export default RightPanel
-
 const Wrapper = styled.main`
   width: calc(100% - 328px);
   padding: 0 24px;
 `
+
+export default RightPanel

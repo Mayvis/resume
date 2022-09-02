@@ -20,8 +20,6 @@ const Expertise: FC = () => {
   )
 }
 
-export default Expertise
-
 const List = styled.ul`
   color: white;
   font-size: 14px;
@@ -32,3 +30,5 @@ const ListItem = styled.li`
   list-style: disc;
   padding: 8px 0 8px 12px;
 `
+
+export default Expertise

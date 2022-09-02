@@ -23,8 +23,6 @@ const LeftPanel: FC = () => {
   )
 }
 
-export default LeftPanel
-
 const Wrapper = styled.div`
   background-color: #333b4a;
   width: 328px;
@@ -34,3 +32,5 @@ const Wrapper = styled.div`
   padding-left: 55px;
   padding-top: 45px;
 `
+
+export default LeftPanel

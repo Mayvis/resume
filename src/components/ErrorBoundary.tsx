@@ -32,8 +32,8 @@ class ErrorBoundary extends Component<Props, State> {
   }
 }
 
-export default ErrorBoundary
-
 const Text = styled.h2`
   text-align: center;
 `
+
+export default ErrorBoundary

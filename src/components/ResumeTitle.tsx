@@ -15,8 +15,6 @@ const ResumeTitle: FC = () => {
   )
 }
 
-export default ResumeTitle
-
 const Wrapper = styled.div`
   padding-top: 48px;
   padding-bottom: 56px;
@@ -52,3 +50,5 @@ const Detail = styled.p`
   color: #5a5a5a;
   line-height: 1.2;
 `
+
+export default ResumeTitle

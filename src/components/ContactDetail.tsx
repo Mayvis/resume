@@ -29,8 +29,6 @@ const ContactDetail: FC = () => {
   )
 }
 
-export default ContactDetail
-
 const List = styled.ul`
   color: white;
   padding: 25px 0;
@@ -49,3 +47,5 @@ const Detail = styled.p`
   font-size: 13px;
   font-weight: 400;
 `
+
+export default ContactDetail

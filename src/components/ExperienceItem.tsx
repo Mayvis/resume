@@ -28,8 +28,6 @@ const ExperienceItem: FC<IProps> = ({
   )
 }
 
-export default ExperienceItem
-
 const Wrapper = styled.div`
   position: relative;
   padding-left: 20px;
@@ -87,3 +85,5 @@ const Detail = styled.div`
   font-size: 14px;
   padding-bottom: 40px;
 `
+
+export default ExperienceItem

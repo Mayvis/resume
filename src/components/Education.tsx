@@ -28,8 +28,6 @@ const Education: FC = () => {
   )
 }
 
-export default Education
-
 const List = styled.ul`
   padding: 26px 0;
   color: white;
@@ -56,3 +54,5 @@ const College = styled.div`
   font-weight: 600;
   font-size: 14px;
 `
+
+export default Education

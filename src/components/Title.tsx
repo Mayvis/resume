@@ -10,8 +10,6 @@ const Title: FC<IProps> = ({ text, color }) => {
   return <Text color={color}>{text}</Text>
 }
 
-export default Title
-
 const Text = styled.h2`
   position: relative;
   color: ${props => props.color};
@@ -30,3 +28,5 @@ const Text = styled.h2`
     background: ${props => props.color};
   }
 `
+
+export default Title
