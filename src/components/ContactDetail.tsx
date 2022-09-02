@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { FC } from 'react'
 
-const Details = [
+const details = [
   {
     title: 'Phone',
     value: '123-456-7890'
@@ -19,7 +19,7 @@ const Details = [
 const ContactDetail: FC = () => {
   return (
     <List>
-      {Details.map(({ title, value }, index) => (
+      {details.map(({ title, value }, index) => (
         <ListItem key={index}>
           <Title>{title}</Title>
           <Detail>{value}</Detail>

@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { FC } from 'react'
 
-const Details = [
+const details = [
   {
     year: 2008,
     degree: 'Bachelor of Science',
@@ -17,7 +17,7 @@ const Details = [
 const Education: FC = () => {
   return (
     <List>
-      {Details.map(({ year, degree, college }, index) => (
+      {details.map(({ year, degree, college }, index) => (
         <ListItem key={index}>
           <Year>{year}</Year>
           <Degree>{degree}</Degree>
