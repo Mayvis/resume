@@ -18,27 +18,23 @@ const Details = [
 
 const ContactDetail: FC = () => {
   return (
-    <Wrapper>
-      <List>
-        {Details.map(({ title, value }, index) => (
-          <ListItem key={index}>
-            <Title>{title}</Title>
-            <Detail>{value}</Detail>
-          </ListItem>
-        ))}
-      </List>
-    </Wrapper>
+    <List>
+      {Details.map(({ title, value }, index) => (
+        <ListItem key={index}>
+          <Title>{title}</Title>
+          <Detail>{value}</Detail>
+        </ListItem>
+      ))}
+    </List>
   )
 }
 
 export default ContactDetail
 
-const Wrapper = styled.div`
+const List = styled.ul`
   color: white;
   padding: 25px 0;
 `
-
-const List = styled.ul``
 
 const ListItem = styled.li`
   margin-bottom: 26px;

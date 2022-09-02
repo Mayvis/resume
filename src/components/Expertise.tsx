@@ -12,25 +12,20 @@ const listItem = [
 
 const Expertise: FC = () => {
   return (
-    <Wrapper>
-      <List>
-        {listItem.map((item, index) => (
-          <ListItem key={index}>{item}</ListItem>
-        ))}
-      </List>
-    </Wrapper>
+    <List>
+      {listItem.map((item, index) => (
+        <ListItem key={index}>{item}</ListItem>
+      ))}
+    </List>
   )
 }
 
 export default Expertise
 
-const Wrapper = styled.div`
-  padding: 26px 0 26px 16px;
-`
-
 const List = styled.ul`
   color: white;
   font-size: 14px;
+  padding: 26px 0 26px 16px;
 `
 
 const ListItem = styled.li`

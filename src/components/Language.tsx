@@ -5,24 +5,19 @@ const language = ['English', 'Spanish']
 
 const Language: FC = () => {
   return (
-    <Wrapper>
-      <List>
-        {language.map((item, index) => (
-          <ListItem key={index}>{item}</ListItem>
-        ))}
-      </List>
-    </Wrapper>
+    <List>
+      {language.map((item, index) => (
+        <ListItem key={index}>{item}</ListItem>
+      ))}
+    </List>
   )
 }
 
 export default Language
 
-const Wrapper = styled.div`
-  padding: 26px 0;
-`
-
 const List = styled.ul`
   color: white;
+  padding: 26px 0;
 `
 
 const ListItem = styled.li`

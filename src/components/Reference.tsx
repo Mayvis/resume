@@ -18,28 +18,24 @@ const references = [
 
 const Reference: FC = () => {
   return (
-    <Wrapper>
-      <List>
-        {references.map(({ name, job, phone, email }, index) => (
-          <ListItem key={index}>
-            <Name>{name}</Name>
-            <Job>{job}</Job>
-            <Detail>
-              <span>Phone: </span> {phone}
-            </Detail>
-            <Detail>
-              <span>Email: </span> {email}
-            </Detail>
-          </ListItem>
-        ))}
-      </List>
-    </Wrapper>
+    <List>
+      {references.map(({ name, job, phone, email }, index) => (
+        <ListItem key={index}>
+          <Name>{name}</Name>
+          <Job>{job}</Job>
+          <Detail>
+            <span>Phone: </span> {phone}
+          </Detail>
+          <Detail>
+            <span>Email: </span> {email}
+          </Detail>
+        </ListItem>
+      ))}
+    </List>
   )
 }
 
 export default Reference
-
-const Wrapper = styled.div``
 
 const List = styled.ul`
   display: flex;

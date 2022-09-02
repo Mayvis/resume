@@ -16,28 +16,23 @@ const Details = [
 
 const Education: FC = () => {
   return (
-    <Wrapper>
-      <List>
-        {Details.map(({ year, degree, college }, index) => (
-          <ListItem key={index}>
-            <Year>{year}</Year>
-            <Degree>{degree}</Degree>
-            <College>{college}</College>
-          </ListItem>
-        ))}
-      </List>
-    </Wrapper>
+    <List>
+      {Details.map(({ year, degree, college }, index) => (
+        <ListItem key={index}>
+          <Year>{year}</Year>
+          <Degree>{degree}</Degree>
+          <College>{college}</College>
+        </ListItem>
+      ))}
+    </List>
   )
 }
 
 export default Education
 
-const Wrapper = styled.div`
-  color: white;
-`
-
 const List = styled.ul`
   padding: 26px 0;
+  color: white;
 `
 
 const ListItem = styled.li`
