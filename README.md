@@ -1,2 +1,5 @@
-# vite-react-typescript-eslint-template
-Personal react eslint typescript project
+# Using react to build resume example
+
+Below is the resume screenshot.
+
+![image resume](./src/assets/resume.png)
